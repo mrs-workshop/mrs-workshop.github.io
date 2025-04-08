@@ -1,14 +1,14 @@
-![Screenshot of the Website](assets/rss_banner.png)
+![Screenshot of the Website](rss25/assets/rss_banner.png)
 
 Here is the github repo for RSS 2025 Workshop on Scalable and Resilient Multi-Robot Systems: Decision-Making,
 Coordination, and Learning. Below we describe some basics of how to edit and view the website.
 
 ## Seeing the Website
 
-The current version on GitHub can be seen at [the following link](http://mrs-workshop.github.io):
+The current version on GitHub can be seen at [the following link](http://mrs-workshop.github.io/rss25):
 
 ```
-http://mrs-workshop.github.io/
+http://mrs-workshop.github.io/rss25
 ```
 
 ## Editing the Website
