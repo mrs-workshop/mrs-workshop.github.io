@@ -247,6 +247,26 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     height: 100%;
 }
 
+.organizer-card-special {
+    background-color: #FCE9C1;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100%; /* Ensures card fills the link area */
+    height: 100%;
+}
+
+.organizer-link:hover .organizer-card-special {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    transform: translateY(-6px);
+}
+
 
 
 .organizer-link:hover .organizer-card {
@@ -256,6 +276,14 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 
 .organizer-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px; /* soft rounded corners */
+    margin-bottom: 12px;
+}
+
+.organizer-card-special img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -277,11 +305,6 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     margin-top: 4px;
 }
 
-
-.organizer-link:hover .organizer-card {
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    transform: translateY(-6px);
-}
 
 .navbar {
     width: 100%;
